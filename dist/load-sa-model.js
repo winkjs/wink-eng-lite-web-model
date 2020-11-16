@@ -1,0 +1,1 @@
+var setter=require("./sa-setter.js"),machines=require("./languages/cur/models/eng-sa-model.json"),loadSAModel=function(){return{machines:machines,setter:setter}};module.exports=loadSAModel;

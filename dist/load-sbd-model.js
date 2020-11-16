@@ -1,0 +1,1 @@
+var transformers=require("./sbd-transformers.js"),setter=require("./sbd-setter.js"),machines=require("./languages/cur/models/eng-sbd-model.json"),loadNERModel=function(){return{machines:machines,setter:setter,transformers:transformers}};module.exports=loadNERModel;

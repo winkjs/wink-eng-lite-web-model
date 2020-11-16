@@ -1,0 +1,1 @@
+var setter=function(rdd,posTags,tkSize,bits4lemma){let pk=0;for(let i=0;i<rdd.tokens.length;i+=tkSize,pk+=1)0===rdd.tokens[i+2]&&(rdd.tokens[i+2]=posTags[pk]<<bits4lemma)};module.exports=setter;

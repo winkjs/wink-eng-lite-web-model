@@ -1,0 +1,1 @@
+var setter=require("./negation-setter.js"),machines=require("./languages/cur/models/eng-negation-model.json"),loadNERModel=function(){return{machines:machines,setter:setter}};module.exports=loadNERModel;

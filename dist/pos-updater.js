@@ -1,0 +1,1 @@
+var updater=function(px,cache,posTags,normalizedTokens){for(let j=0;j<px.length;j+=1){const targetPOS=px[j][2],tokenIdx=px[j][0];targetPOS<0?posTags[tokenIdx]=Math.abs(targetPOS):cache.isMemberPOS(normalizedTokens[tokenIdx],targetPOS)&&(posTags[tokenIdx]=targetPOS)}};module.exports=updater;

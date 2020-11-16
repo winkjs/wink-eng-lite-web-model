@@ -1,0 +1,1 @@
+var setter=function(px,rdd){var numOfTokens=rdd.numOfTokens,si=[0,numOfTokens-1,0,0];for(let i=0;i<px.length;i+=1)si[1]=px[i][0],i<px.length-1&&(rdd.sentences.push(si),si=[px[i][0]+1,numOfTokens-1,0,0]);rdd.sentences.push(si),si[1]<numOfTokens-1&&rdd.sentences.push([si[1]+1,numOfTokens-1,0,0])};module.exports=setter;

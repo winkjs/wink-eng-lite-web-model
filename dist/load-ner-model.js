@@ -1,0 +1,1 @@
+var transformers=require("./ner-transformers.js"),machines=require("./languages/cur/models/eng-ner-model.json"),loadNERModel=function(){return{machines:machines,transformers:transformers}};module.exports=loadNERModel;
