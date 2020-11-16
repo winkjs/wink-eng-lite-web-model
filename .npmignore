@@ -1,0 +1,14 @@
+test
+docs
+sourcedocs
+src
+.eslintrc.json
+.jshintrc
+.travis.yml
+.gitattributes
+Gruntfile.js
+
+# Generic
+.node_repl_history
+.npm
+coverage

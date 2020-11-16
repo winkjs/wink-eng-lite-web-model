@@ -1,0 +1,14 @@
+# Git
+.gitignore export-ignore
+.gitattributes export-ignore
+.git export-ignore
+
+# Node
+node_modules export-ignore
+.eslintrc.json export-ignore
+.npmignore export-ignore
+Gruntfile.js export-ignore
+
+# Wink
+src export-ignore
+dist
