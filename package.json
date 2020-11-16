@@ -1,0 +1,30 @@
+{
+  "name": "wink-eng-lite-web-model",
+  "version": "1.0.0",
+  "description": "Wink's English Language Light Web Model for Web Browsers",
+  "keywords": [
+    "NLP",
+    "English",
+    "Browser",
+    "wink"
+  ],
+  "main": "dist/model.js",
+  "scripts": {
+    "start": "grunt watch",
+    "build": "grunt",
+    "test": "echo \"Info: pre-tested, no test required.\" && exit 1"
+  },
+  "author": "Sanjaya Kumar Saxena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winkjs/wink-eng-lite-model/issues"
+  },
+  "homepage": "http://winkjs.org/",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "grunt": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-terser": "^1.0.0"
+  }
+}
