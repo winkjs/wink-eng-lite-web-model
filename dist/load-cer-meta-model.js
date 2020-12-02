@@ -1,1 +1,1 @@
-var transformers=require("./cer-transformers.js"),machines=require("./languages/cur/models/eng-cer-meta-model.json"),loadNERModel=function(){return{machines:machines,transformers:transformers}};module.exports=loadNERModel;
+var transformers=require("./cer-transformers.js"),machines=require("./languages/cur/models/eng-cer-meta-model.json"),loadNERModel=function(){return{machines:machines=JSON.stringify(machines),transformers:transformers}};module.exports=loadNERModel;
