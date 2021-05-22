@@ -18,7 +18,7 @@ It contains models for the following NLP tasks:
 8. Sentiment Analysis
 9. Custom Entities Definition
 10. Stemming using Porter Stemmer Algorithm V2
-11. *Lemmatization (upcoming)*
+11. Lemmatization
 
 It is a derivative of [wink-eng-lite-model](https://github.com/winkjs/wink-eng-lite-model).
 
@@ -85,6 +85,6 @@ If you spot a bug and the same has not yet been reported, raise a new [issue](ht
 
 
 ## Copyright & License
-The **wink-eng-lite-web-model** is copyright 2020 of [GRAYPE Systems Private Limited](https://graype.in/).
+The **wink-eng-lite-web-model** is copyright 2020-21 of [GRAYPE Systems Private Limited](https://graype.in/).
 
 It is licensed under the terms of the MIT License.
