@@ -1,3 +1,15 @@
+# [Adding lemmatizer support](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.1.0)
+## Version 1.1.0 May 22, 2021
+
+### ✨ Features
+- Now use `its.lemma` helper to obtain lemma of words. 👏 🎉
+
+#
+### ⚙️ Updates
+
+- We have made some behind the scene updates to lexicon & pos model. 📔
+
+
 # [Fixing custom entities meta model loading](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.0.1)
 ## Version 1.0.1 December 2, 2020
 
