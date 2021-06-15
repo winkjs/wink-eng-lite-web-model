@@ -1,3 +1,10 @@
+# [Adding Readability Stats](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.2.0)
+## Version 1.2.0 June 15, 2021
+
+### ✨ Features
+- Determine the document's Flesch Reading Ease Score (FRES), Reading Time, Complex words, Sentiment Score and more with `its.readabilityStats` helper. 📚📊👏
+
+
 # [Adding lemmatizer support](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.1.0)
 ## Version 1.1.0 May 22, 2021
 
