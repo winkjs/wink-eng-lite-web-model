@@ -1,3 +1,9 @@
+# [Squashed a bug](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.2.1)
+## Version 1.2.1 July 15, 2021
+### 🐛 Fixes
+- Rectified a buggy regex, which failed to parse relatively long numerals. 👏✅
+
+
 # [Adding Readability Stats](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.2.0)
 ## Version 1.2.0 June 15, 2021
 
