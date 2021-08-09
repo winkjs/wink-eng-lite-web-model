@@ -1,3 +1,8 @@
+# [Allows creating multiple instances of winkNLP](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.2.2)
+## Version 1.2.2 August 09, 2021
+### 🐛 Fixes
+- Now create multiple instances of winkNLP using the model. 🔢
+
 # [Squashed a bug](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.2.1)
 ## Version 1.2.1 July 15, 2021
 ### 🐛 Fixes
