@@ -12,7 +12,8 @@
   "scripts": {
     "start": "grunt watch",
     "build": "grunt",
-    "test": "echo \"Info: pre-tested, no test required.\" && exit 1"
+    "test": "echo \"Info: pre-tested, no test required.\" && exit 1",
+    "dtslint": "dtslint types"
   },
   "author": "Sanjaya Kumar Saxena",
   "license": "MIT",
@@ -20,11 +21,16 @@
     "url": "https://github.com/winkjs/wink-eng-lite-model/issues"
   },
   "homepage": "http://winkjs.org/",
+  "peerDependencies": {
+    "wink-nlp": "^1.8.2"
+  },
   "devDependencies": {
+    "dtslint": "^4.1.3",
     "eslint": "^7.27.0",
     "grunt": "^1.4.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-terser": "^2.0.0"
-  }
+  },
+  "types": "types/wink-eng-lite-model.d.ts"
 }
