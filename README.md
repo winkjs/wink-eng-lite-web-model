@@ -21,7 +21,7 @@ It contains models for the following NLP tasks:
 11. Lemmatization
 12. Readability statistics computation
 
-It is a derivative of [wink-eng-lite-model](https://github.com/winkjs/wink-eng-lite-model).
+It is a derivative of [wink-eng-lite-model](https://github.com/winkjs/wink-eng-lite-model) and also supports [Typescript](https://github.com/winkjs/wink-eng-lite-web-model/tree/master/types).
 
 ## Getting Started
 

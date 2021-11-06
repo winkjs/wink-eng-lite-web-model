@@ -1,3 +1,9 @@
+# [Adding Typescript support](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.3.0)
+## Version 1.3.0 November 06, 2021
+
+### ✨ Features
+- We have added support for Typescript. 🙌🎉
+
 # [Allows creating multiple instances of winkNLP](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.2.2)
 ## Version 1.2.2 August 09, 2021
 ### 🐛 Fixes
