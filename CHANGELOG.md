@@ -1,3 +1,10 @@
+# [Operational update](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.3.2)
+## Version 1.3.2 November 18, 2021
+
+### ⚙️ Updates
+
+- We have made some behind the scene updates. 😎
+
 # [Fixed a bug](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.3.1)
 ## Version 1.3.1 November 18, 2021
 
