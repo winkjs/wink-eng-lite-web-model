@@ -36,5 +36,5 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-terser": "^2.0.0"
   },
-  "types": "types/wink-eng-lite-model.d.ts"
+  "types": "types/index.d.ts"
 }
