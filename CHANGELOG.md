@@ -1,3 +1,9 @@
+# [Fixed a bug](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.3.1)
+## Version 1.3.1 November 18, 2021
+
+### 🐛 Fixes
+- Squashed a typo bug in package.json in `types` field.
+
 # [Adding Typescript support](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.3.0)
 ## Version 1.3.0 November 06, 2021
 
