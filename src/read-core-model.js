@@ -56,13 +56,10 @@ var readModel = function ( ) {
   var packing = model.packing;
   var featuresData = model.features;
   var pos = model.pos;
-  var lexiconAsBuffer;
-  var xpansionsAsBuffer;
+// Read the lexicon block.
+  model.lexicon = bufferFromBase64(model.lexicon);
 
-  // Read the lexicon block.
-  model.lexicon = bufferFromBase64(model.lexicon)
-
-  model.xpansions = bufferFromBase64(model.xpansions)
+  model.xpansions = bufferFromBase64(model.xpansions);
 
   // Rebuild hash from list for the required features.
   for ( const f in model.packing.layout ) {
