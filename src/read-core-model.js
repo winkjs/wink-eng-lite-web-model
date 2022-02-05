@@ -36,6 +36,17 @@
 
 const originalModel = require( './languages/cur/models/eng-core-web-model.json' );
 
+const bufferFromBase64 = function ( data ) {
+  const decodedData = atob( data );
+  var size = decodedData.length;
+  var bytes = new Uint8Array( size );
+  for ( let k = 0; k < size; k += 1 ) {
+      bytes[ k ] = decodedData.charCodeAt( k );
+  }
+
+  return bytes;
+}; // bufferFromBase64()
+
 var readModel = function ( ) {
   // Create a deep clone so that multiple instances of winkNLPs can be created
   // without causing any conflict. The orginal model will in any case stay in
@@ -48,14 +59,10 @@ var readModel = function ( ) {
   var lexiconAsBuffer;
   var xpansionsAsBuffer;
 
-
-  // With header in hand, can allocate memory to lexicon.
-  lexiconAsBuffer = Buffer.from( model.lexicon, 'base64' );
   // Read the lexicon block.
-  model.lexicon = new Uint32Array( lexiconAsBuffer.buffer, 0, ( lexiconAsBuffer.length / 4 ) );
+  model.lexicon = bufferFromBase64(model.lexicon)
 
-  xpansionsAsBuffer = Buffer.from( model.xpansions, 'base64' );
-  model.xpansions = new Uint32Array( xpansionsAsBuffer.buffer, 0, ( xpansionsAsBuffer.length / 4 ) );
+  model.xpansions = bufferFromBase64(model.xpansions)
 
   // Rebuild hash from list for the required features.
   for ( const f in model.packing.layout ) {
