@@ -37,6 +37,10 @@
 const originalModel = require( './languages/cur/models/eng-core-web-model.json' );
 
 /**
+ * Converts `base64` string into an array buffer. It works as a replacement for
+ * `Buffer.from( data, 'base64' )` of Node.js and delivers better browser
+ * compatibility.
+ *
  * @param {string} data  - base64 string of data to be converted
  * @returns {ArrayBuffer} an ArrayBuffer of the data
  */
@@ -60,10 +64,10 @@ var readModel = function ( ) {
   var packing = model.packing;
   var featuresData = model.features;
   var pos = model.pos;
-// Read the lexicon block.
-  model.lexicon = new Uint32Array(bufferFromBase64(model.lexicon));
+  // Read the lexicon & expansions blocks and convert them into `Uint32Array`.
+  model.lexicon = new Uint32Array( bufferFromBase64( model.lexicon ) );
 
-  model.xpansions = new Uint32Array(bufferFromBase64(model.xpansions));
+  model.xpansions = new Uint32Array( bufferFromBase64( model.xpansions ) );
 
   // Rebuild hash from list for the required features.
   for ( const f in model.packing.layout ) {
