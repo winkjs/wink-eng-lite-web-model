@@ -36,6 +36,10 @@
 
 const originalModel = require( './languages/cur/models/eng-core-web-model.json' );
 
+/**
+ * @param {string} data  - base64 string of data to be converted
+ * @returns {ArrayBuffer} an ArrayBuffer of the data
+ */
 const bufferFromBase64 = function ( data ) {
   const decodedData = atob( data );
   var size = decodedData.length;
@@ -44,7 +48,7 @@ const bufferFromBase64 = function ( data ) {
       bytes[ k ] = decodedData.charCodeAt( k );
   }
 
-  return bytes;
+  return bytes.buffer;
 }; // bufferFromBase64()
 
 var readModel = function ( ) {
@@ -57,9 +61,9 @@ var readModel = function ( ) {
   var featuresData = model.features;
   var pos = model.pos;
 // Read the lexicon block.
-  model.lexicon = bufferFromBase64(model.lexicon);
+  model.lexicon = new Uint32Array(bufferFromBase64(model.lexicon));
 
-  model.xpansions = bufferFromBase64(model.xpansions);
+  model.xpansions = new Uint32Array(bufferFromBase64(model.xpansions));
 
   // Rebuild hash from list for the required features.
   for ( const f in model.packing.layout ) {
