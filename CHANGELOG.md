@@ -1,3 +1,10 @@
+# [Making it more browser friendly](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.3.3)
+## Version 1.3.3 February 08, 2022
+
+### ⚙️ Updates
+
+- We have removed Node.js `Buffer.from()` API calls completely. ✅ 👏 🎉
+
 # [Operational update](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.3.2)
 ## Version 1.3.2 November 18, 2021
 
