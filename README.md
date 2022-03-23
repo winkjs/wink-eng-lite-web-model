@@ -24,6 +24,7 @@ It contains models for the following NLP tasks:
 It is a derivative of [wink-eng-lite-model](https://github.com/winkjs/wink-eng-lite-model) and also supports [Typescript](https://github.com/winkjs/wink-eng-lite-web-model/tree/master/types).
 
 ## Getting Started
+It supports Node.js `version 16.0.0` or above. The compatible browsers are listed [here](https://developer.mozilla.org/en-US/docs/Web/API/atob#browser_compatibility).
 
 ### Installation
 The model must be installed along with the [wink-nlp](https://winkjs.org/wink-nlp/):
