@@ -45,7 +45,15 @@ const originalModel = require( './languages/cur/models/eng-core-web-model.json' 
  * @returns {ArrayBuffer} an ArrayBuffer of the data
  */
 const bufferFromBase64 = function ( data ) {
-  const decodedData = atob( data );
+  let decodedData;
+  // Use a try-catch block to detect if `atob()` is supported.
+  try {
+    decodedData = atob( data );
+  } catch ( e ) {
+    throw Error( `Unsupproted browser or node.js version;
+      Refer to https://developer.mozilla.org/en-US/docs/Web/API/atob#browser_compatibility for supported versions.` );
+  }
+
   var size = decodedData.length;
   var bytes = new Uint8Array( size );
   for ( let k = 0; k < size; k += 1 ) {
