@@ -1,3 +1,10 @@
+# [Detects unsupported Node.js & Browsers and their versions](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.4.0)
+## Version 1.4.0 March 24, 2022
+
+### ✨ Features
+
+- While loading, it automatically detects unsupported Node.js & Browsers and their versions. 😎 🙌 😇
+
 # [Making it more browser friendly](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.3.3)
 ## Version 1.3.3 February 08, 2022
 
