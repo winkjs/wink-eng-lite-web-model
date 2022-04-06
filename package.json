@@ -1,6 +1,6 @@
 {
   "name": "wink-eng-lite-web-model",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Wink's English Language Light Web Model for Web Browsers",
   "keywords": [
     "NLP",
@@ -22,7 +22,7 @@
   "author": "Sanjaya Kumar Saxena",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/winkjs/wink-eng-lite-model/issues"
+    "url": "https://github.com/winkjs/wink-eng-lite-web-model/issues"
   },
   "homepage": "http://winkjs.org/",
   "peerDependencies": {
