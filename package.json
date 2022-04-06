@@ -28,6 +28,9 @@
   "peerDependencies": {
     "wink-nlp": ">1.8.1"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "devDependencies": {
     "dtslint": "^4.2.1",
     "eslint": "^8.8.0",
