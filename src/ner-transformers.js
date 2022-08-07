@@ -64,6 +64,10 @@ var transformNumber = function ( tv, token ) {
   // Replace all commas by nothing before the period sign.
   var num = +( ( rgxPeriod.test( tv ) ) ? tv.replace( rgxCommaB4Period, '' ) : tv.replace( rgxComma, '') );
   if ( isNaN( num ) ) {
+    // Check for fractions i.e. `1/2` — numerator and denominator both should numbers with any commas.
+    const splitTV = tv.split( '/' );
+    if ( ( splitTV.length === 2 ) &&  !isNaN( splitTV[ 0 ] ) && !isNaN( splitTV[ 1 ] ) ) return hintDelta + $numeric_value; // eslint-disable-line camelcase
+    // Otherwise look for possible date/time.
     if ( rgxDDMMYY.test( tv ) ) return hintDelta + $date;
     if ( rgxMMDDYY.test( tv ) ) return hintDelta + $date;
     if ( rgxISODate.test( tv ) ) return hintDelta + $date;
