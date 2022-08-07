@@ -1,9 +1,15 @@
+# [Squashed a bug](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.4.2)
+## Version 1.4.2 August 07, 2022
+
+### 🐛 Fixes
+- Added missing pre-processing of fractions for NER. ✅
+
 # [Defined version prerequisite](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.4.1)
 ## Version 1.4.1 April 06, 2022
 
 ### ⚙️ Updates
 
-- We have added engines in package.json for Node.js >= 16 and link to compatible browser version in README. 😎 📔 
+- We have added engines in package.json for Node.js >= 16 and link to compatible browser version in README. 😎 📔
 
 # [Detects unsupported Node.js & Browsers and their versions](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.4.0)
 ## Version 1.4.0 March 24, 2022
