@@ -165,6 +165,8 @@ var feature = function ( config, lang, featuresData, isLexicographer ) {
     return pos || 8;
   };
 
+  // Stores the previous word passed to the `partOfSpeech` function.
+  let prevWord = null;
   var partOfSpeech = function ( word, category, cache ) {
     if ( isLexicographer ) {
       // Get the array of pos tags.
@@ -183,9 +185,9 @@ var feature = function ( config, lang, featuresData, isLexicographer ) {
       if ( hash < cache.intrinsicSize() ) {
         // Found, extract pos of lower cased word.
         const posOfWLC = cache.posOf( hash );
-        // If word wasn't in lowercase already and pos is NOUN, assign PROPN
-        // else retain the pos as-is.
-        pos = ( rgxTC.test( word ) && posOfWLC === 8 ) ? 12 : posOfWLC;
+        // Force uppercase & titlecase words to PROPN except for the forst token of the sentence.
+        const isFirstToken = ( prevWord === null || (/^[\t\r\n.?!]+$/).test( prevWord ) );
+        pos = ( ( rgxTC.test( word ) || rgxUC.test( word ) ) && !isFirstToken ) ? 12 : posOfWLC;
       } else {
         pos = oovPoS( word );
         // Word but completely missing from lexicon: if it is word-like then
@@ -194,6 +196,8 @@ var feature = function ( config, lang, featuresData, isLexicographer ) {
         //         ( ( ( /^[a-z]*$/ ).test( word ) ) ? 8 : 12 ) : 12;
       }
     }
+    // Update the previous word.
+    prevWord = word;
     // If pos is not found, try obtaining pos from tact2pos map else NOUN.
     return pos || tcat2pos[ category ] || ( ( rgxTC.test( word ) ) ? 12 : 8 );
   }; // partOfSpeech()
