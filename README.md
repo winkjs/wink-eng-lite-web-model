@@ -2,7 +2,7 @@
 **winkNLP's English lite language model for Web Browsers**
 
 [<img align="right" src="https://decisively.github.io/wink-logos/logo-title.png" width="100px" >](https://winkjs.org/)
-This is a pre-trained English language model for the winkjs NLP package — [winkNLP](https://winkjs.org/wink-nlp/). It is compatible with [browserify](https://www.npmjs.com/package/browserify) — easily create a bundle that you can serve up to the web browser in a single `<script>` tag or even build a mobile apps. Its gzipped size is under 1MB.
+This is a pre-trained English language model for the winkjs NLP package — [winkNLP](https://winkjs.org/wink-nlp/). It is compatible with [browserify](https://www.npmjs.com/package/browserify) — easily create a bundle that you can serve up to the web browser in a single `<script>` tag or even build a mobile apps. Its gzipped size is ~1MB.
 
 It is an open-source language model, released under the MIT license.
 
@@ -69,7 +69,7 @@ The model supports following NLP tasks — tokenization, sentence boundary detec
 While it is trained to process English language text, it can tokenize text containing other languages such as Hindi, French and German. Such tokens are tagged as **X** (foreign word) during pos tagging.
 
 ### POS Tagging
-The model follows the [Universal POS tags](https://universaldependencies.org/u/pos/) standards. It delivers an accuracy of **~94.7%** on a subset of WSJ corpus — this includes *tokenization of raw text prior to pos tagging*.
+The model follows the [Universal POS tags](https://universaldependencies.org/u/pos/) standards. It delivers an accuracy of **~95%** on a subset of WSJ corpus — this includes *tokenization of raw text prior to pos tagging*.
 
 ### Named Entity Recognition (NER)
 The model is trained to detect **CARDINAL**, **DATE**, **DURATION**,  **EMAIL**, **EMOJI**, **EMOTICON**, **HASHTAG**, **MENTION**, **MONEY**, **ORDINAL**, **PERCENT**, **TIME**, and **URL**.
@@ -89,6 +89,6 @@ If you spot a bug and the same has not yet been reported, raise a new [issue](ht
 
 
 ## Copyright & License
-The **wink-eng-lite-web-model** is copyright 2020-21 of [GRAYPE Systems Private Limited](https://graype.in/).
+The **wink-eng-lite-web-model** is copyright 2020-23 of [GRAYPE Systems Private Limited](https://graype.in/).
 
 It is licensed under the terms of the MIT License.
