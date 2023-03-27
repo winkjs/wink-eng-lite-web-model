@@ -1,3 +1,10 @@
+# [Improved POS tagging a bit](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.5.0)
+## Version 1.5.0 March 27, 2023
+
+### ✨ Features
+
+- We have enhanced the model a little bit — POS tagging accuracy is now touching 95%. 🙌 🎉
+
 # [Made it a little better](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.4.3)
 ## Version 1.4.3 August 20, 2022
 
