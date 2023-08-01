@@ -19,6 +19,10 @@
     "test": "echo \"Info: pre-tested, no test required.\" && exit 1",
     "dtslint": "dtslint types"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winkjs/wink-eng-lite-web-model.git"
+  },
   "author": "Sanjaya Kumar Saxena",
   "license": "MIT",
   "bugs": {
