@@ -1,3 +1,10 @@
+# [Link github repo](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.5.2)
+## Version 1.5.2 August 01, 2023
+
+### ⚙️ Updates
+
+- Updated the missed package.json version. ❤️‍🩹
+
 # [Link github repo](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.5.1)
 ## Version 1.5.1 August 01, 2023
 
