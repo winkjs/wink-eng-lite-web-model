@@ -1,3 +1,10 @@
+# [Link github repo](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.5.1)
+## Version 1.5.1 August 01, 2023
+
+### ⚙️ Updates
+
+- We have added link to the github repo in the package.json file. 🙌
+
 # [Improved POS tagging a bit](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.5.0)
 ## Version 1.5.0 March 27, 2023
 
