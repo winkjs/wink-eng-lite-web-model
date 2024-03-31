@@ -35,8 +35,6 @@ const consts = require( './constants.js' );
 const tkSize = consts.tkSize;
 
 var readabilityStats = function ( rdd, its ) {
-  // The cache.
-  var cache = rdd.cache;
   // wink NLP native tokens.
   var tokens = rdd.tokens;
   // Number of sentences.
@@ -52,8 +50,8 @@ var readabilityStats = function ( rdd, its ) {
   var fres = 121;
 
   for ( let k = 0; k < tokens.length; k += 1 ) {
-    if ( its.type( k, tokens, cache ) === 'word' ) {
-      token = its.normal( k, tokens, cache );
+    if ( its.type( k, rdd ) === 'word' ) {
+      token = its.normal( k, rdd );
       numOfWords += 1;
       const ns = syllables( token.toLowerCase() );
       numOfSyllables += ns;
