@@ -1,6 +1,6 @@
 {
   "name": "wink-eng-lite-web-model",
-  "version": "1.5.2",
+  "version": "1.6.0",
   "description": "Wink's English Language Light Web Model for Web Browsers",
   "keywords": [
     "NLP",
@@ -30,7 +30,7 @@
   },
   "homepage": "http://winkjs.org/",
   "peerDependencies": {
-    "wink-nlp": ">1.8.1"
+    "wink-nlp": ">2.1.0"
   },
   "engines": {
     "node": ">=16.0.0"
