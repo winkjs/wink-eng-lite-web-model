@@ -89,6 +89,6 @@ If you spot a bug and the same has not yet been reported, raise a new [issue](ht
 
 
 ## Copyright & License
-The **wink-eng-lite-web-model** is copyright 2020-23 of [GRAYPE Systems Private Limited](https://graype.in/).
+The **wink-eng-lite-web-model** is copyright 2020-24 of [GRAYPE Systems Private Limited](https://graype.in/).
 
 It is licensed under the terms of the MIT License.
