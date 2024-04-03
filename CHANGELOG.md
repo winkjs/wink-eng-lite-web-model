@@ -1,3 +1,11 @@
+# [Enable non-breaking space (U+00A0) handling](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.6.0)
+## Version 1.6.0 April 03, 2024
+
+### ✨ Features
+
+- We've upgraded the model to process non-breaking spaces in the same way as standard spaces. 🙌
+
+
 # [Link github repo](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.5.2)
 ## Version 1.5.2 August 01, 2023
 
