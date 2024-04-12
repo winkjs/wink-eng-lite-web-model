@@ -1,3 +1,14 @@
+# [Enable accented chars & word joiner char handling](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.7.0)
+## Version 1.7.0 April 12, 2024
+
+### ✨ Features
+
+- Accented characters now also include diacritical marks. 🙌
+- Token containing a word joiner is treated as a single token. ✅
+- Shape of token containing accented chars, diacritical marks & word joiner char(s) is now determined after removing them. 👏
+
+
+
 # [Enable non-breaking space (U+00A0) handling](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.6.0)
 ## Version 1.6.0 April 03, 2024
 
