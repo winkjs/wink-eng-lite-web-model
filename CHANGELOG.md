@@ -1,3 +1,10 @@
+# [Operational update](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.7.1)
+## Version 1.7.1 May 06, 2024
+
+### ⚙️ Updates
+
+- We have made some behind the scene updates in type definitions. 😎
+
 # [Enable accented chars & word joiner char handling](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.7.0)
 ## Version 1.7.0 April 12, 2024
 
