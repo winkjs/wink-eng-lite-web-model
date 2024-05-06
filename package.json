@@ -29,9 +29,6 @@
     "url": "https://github.com/winkjs/wink-eng-lite-web-model/issues"
   },
   "homepage": "http://winkjs.org/",
-  "peerDependencies": {
-    "wink-nlp": ">2.1.0"
-  },
   "engines": {
     "node": ">=16.0.0"
   },
