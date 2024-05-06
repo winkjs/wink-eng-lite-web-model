@@ -5,7 +5,7 @@ declare module 'wink-eng-lite-web-model' {
   export {};
 
   // *** BEGIN Language Model Specific Declarations ***
-  // These should be always in sync with the winkNLP's type declarations. 
+  // These should be always in sync with the winkNLP's type declarations.
   // these types are internal details of the implementing model
   type StemAddon = unknown;
   type LemmatizeAddon = unknown;
