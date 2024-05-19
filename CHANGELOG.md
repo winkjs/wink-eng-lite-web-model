@@ -1,3 +1,10 @@
+# [Add support for more non regular space characters](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.8.0)
+## Version 1.8.0 May 19, 2024
+
+### ✨ Features
+
+- We've enhanced the model to process em/en, third/quarter, thin/hair, medium math space characters & regular/narrow non breaking space characters. 🚀 🛰️
+
 # [Operational update](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.7.1)
 ## Version 1.7.1 May 06, 2024
 
