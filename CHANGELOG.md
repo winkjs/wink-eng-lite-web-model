@@ -1,3 +1,14 @@
+# [Squashed a bug](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.8.1)
+## Version 1.8.1 November 30, 2024
+
+### 🐛 Fixes
+- Resolve state inconsistency issue. ✅
+
+### ⚙️ Updates
+
+- We have made some minor improvements in the model. 😎
+
+
 # [Add support for more non regular space characters](https://github.com/winkjs/wink-eng-lite-web-model/releases/tag/1.8.0)
 ## Version 1.8.0 May 19, 2024
 
